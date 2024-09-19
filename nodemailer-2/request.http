@@ -1,0 +1,4 @@
+curl -X <http method> \ 
+-H "Content-Type: application/json" \
+-d  <request body goes here>  \
+<The API endpoint>

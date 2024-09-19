@@ -1,0 +1,21 @@
+# Ignore environment files
+*.env
+
+# Ignore node_modules directories
+node_modules/
+frontend/node_modules/
+nodemailer-2/node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore history files
+*.history
+
+# Specific to frontend and nodemailer-2 directories (if not already covered above)
+frontend/*.env
+frontend/*.log
+frontend/*.history
+nodemailer-2/*.env
+nodemailer-2/*.log
+nodemailer-2/*.history
